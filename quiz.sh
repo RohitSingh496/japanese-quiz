@@ -30,6 +30,13 @@ echo "$word	$ans"
 break
 echo "Press Enter to see options..."
 read
-reply=$(echo -e "$ans\n$choice1\n$choice2\n$choice3" | fzf --prompt "Options for this: `echo $word`")
+reply=$(echo -e "$ans\n$choice1\n$choice2\n$choice3"|shuf| fzf --prompt "Options for this: `echo $word`")
+
+if [ "$reply" == "$ans" ]
+then 
+	echo "correct"
+else
+	echo "incorrect"
+fi
 
 break
