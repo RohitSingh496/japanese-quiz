@@ -1,6 +1,6 @@
 ### Japanese-Quiz
 
-- To clone: `git clone -b branc-2 --single-branch "https://github.com/japanese-quiz.git"`
+- To clone: `git clone -b branch-2 --single-branch "https://github.com/japanese-quiz.git"`
 
 ---
 
