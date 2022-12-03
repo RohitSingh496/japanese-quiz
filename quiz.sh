@@ -1,10 +1,10 @@
 #!/bin/bash
 clear
-echo "Creating a quiz from kanji.tsv file..."
+echo "Creating a quiz from n4kanji.tsv file..."
 
 break(){
 echo 
-for i in {0..15}; do echo -n "**--**" ; done 
+for i in {0..5}; do echo -n "**--**" ; done 
 echo 
 echo 
 }
@@ -12,21 +12,21 @@ echo
 break
 
 #getRandomLine
-str=$(shuf -n 1 kanji.tsv) 
+str=$(shuf -n 1 n4kanji.tsv) 
 
 #extractWord
-word=$(echo "$str" | cut -f 2)
+word=$(echo "$str" | cut -f 1)
 
 #extractMeaning
-ans=$(echo "$str" | cut -f 5)
+ans=$(echo "$str" | cut -f 2)
 
 #createRandomChoice
-choice1=$(shuf -n 1 kanji.tsv | cut -f 5 )
-choice2=$(shuf -n 1 kanji.tsv | cut -f 5 )
-choice3=$(shuf -n 1 kanji.tsv | cut -f 5 )
+choice1=$(shuf -n 1 n4kanji.tsv | cut -f 2 )
+choice2=$(shuf -n 1 n4kanji.tsv | cut -f 2 )
+choice3=$(shuf -n 1 n4kanji.tsv | cut -f 2 )
 
 
-echo "$word	$ans"
+echo "$word"
 break
 echo "Press Enter to see options..."
 read

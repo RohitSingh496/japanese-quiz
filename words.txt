@@ -1,0 +1,112 @@
+冷蔵庫 :: Refrigerator
+両親 :: Parents
+旅行 :: Travel
+家 :: House
+コンピュター :: Computer
+オランダ :: The Netherlands
+韓国 :: South Korea
+中国 :: China
+台湾 :: Taiwan
+長い :: Long
+高い :: Expensive/Tall
+会社 :: Office/WorkPlace
+七時ごろ :: Around 7 o'clock
+起きます :: Wake up。
+毎朝 :: Every Morning.
+お茶 :: Green Tea
+飲み :: To drink
+午前零時 :: 12 A.M.
+映画 :: Movies
+英語 :: English
+時々 :: Sometimes
+昨日 :: Yesterday
+一昨日 :: The day before yesterday.
+明日、 :: Tomorrow
+明後日 :: The day after tomorrow
+書きます :: To write
+新しい :: New
+読み :: To read
+歌 :: Song（うた）
+紙 :: Paper（かみ）
+手紙 :: Letter
+たくさん :: A lot
+嫌い :: Hate
+友達 :: Friend
+散歩 :: Walk(a short walk)
+絵 :: Picture
+描き :: To draw
+走り :: To run
+泳ぎ :: To swim
+習い :: To learn
+あまり :: Not very Often(Used negatively)
+音楽 :: Music
+遊び :: To play
+聞く :: To listen
+アルゼンチン :: Argentina
+ニューヨーク :: New York
+ロサンゼルス :: Los Angeles
+ヴェネツィア :: Venice
+ブエノスアイレス :: Buenos Aires
+カンヌ :: Cannes
+中村 :: Nakamura
+本田 :: Honda
+田中 :: Tanaka
+写真 :: Photo
+よく :: Often
+撮ります :: To take(pictures/photos)
+近い :: Near, Close
+遠い :: Far
+電車 :: Train
+車 :: Car
+早く :: Fast
+遅く :: Slow, late
+地下鉄 :: Subway
+乗り :: To get on, to take, ride
+使い :: Use
+自転車 :: Bike,Bicycle
+空港 :: The airport
+使い :: Use
+乗り :: Ride
+地下鉄 :: Subway
+駅 :: Train Station
+歩き :: To walk
+飛行機 :: The airplane
+地図 :: Map
+靴 :: Shoes
+服 :: Clothes
+帽子 :: Hat
+欲しい :: Want
+茶色 :: Brown Color
+ピンク色 :: Pink Color
+オレンジ色 :: Orange color
+履きます :: To wear(Lowerbody)
+着ます :: To wear(Upper Body)
+黒い :: Black
+青い :: Blue
+赤い :: Red
+色 :: Color
+被り :: To wear(Hat)
+公園 :: Park/Garden
+一緒 :: Together
+映画館 :: Movie Theater
+来週 :: Next Week
+今週 :: This week
+先週 :: Last Week
+先月 :: Last Month
+今月 :: This Month
+来月 :: Next Month
+再来週 :: The week after the next.
+降って :: Falling(rain)
+悪い :: Bad
+雪 :: Snow
+夕べ :: Last night
+夕方 :: Evening
+雨 :: Rain
+曇って :: Cloudy
+風 :: Wind
+弱い :: Weak
+吹いて :: Blowing(Wind)
+塩 :: Salt
+果物 :: Fruits
+弁当 :: Lunchbox
+全然 :: Not at all
