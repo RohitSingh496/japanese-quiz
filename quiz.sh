@@ -1,6 +1,7 @@
 #!/bin/bash
+file=./n4kanji.tsv
 clear
-echo "Creating a quiz from n4kanji.tsv file..."
+echo "Creating a quiz from $file file..."
 
 break(){
 echo 
@@ -12,7 +13,7 @@ echo
 break
 
 #getRandomLine
-str=$(shuf -n 1 n4kanji.tsv) 
+str=$(shuf -n 1 $file) 
 
 #extractWord
 word=$(echo "$str" | cut -f 1)
@@ -21,9 +22,9 @@ word=$(echo "$str" | cut -f 1)
 ans=$(echo "$str" | cut -f 2)
 
 #createRandomChoice
-choice1=$(shuf -n 1 n4kanji.tsv | cut -f 2 )
-choice2=$(shuf -n 1 n4kanji.tsv | cut -f 2 )
-choice3=$(shuf -n 1 n4kanji.tsv | cut -f 2 )
+choice1=$(shuf -n 1 $file | cut -f 2 )
+choice2=$(shuf -n 1 $file | cut -f 2 )
+choice3=$(shuf -n 1 $file | cut -f 2 )
 
 
 echo "$word"
