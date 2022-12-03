@@ -39,7 +39,7 @@ choice3=$(shuf -n 1 $file | cut -f 2 )
 
 echo -e "$blue $word $end"
 break 2
-echo "Press Enter to see options..."
+echo -n "Press Enter to see options..."
 read
 
 break 6
