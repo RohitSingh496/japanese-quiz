@@ -4,7 +4,7 @@ echo "Creating a quiz from kanji.tsv file..."
 
 break(){
 echo 
-for i in {0..15}; do echo -n "**--**" ; done 
+for i in {0..5}; do echo -n "**--**" ; done 
 echo 
 echo 
 }
@@ -26,7 +26,7 @@ choice2=$(shuf -n 1 kanji.tsv | cut -f 5 )
 choice3=$(shuf -n 1 kanji.tsv | cut -f 5 )
 
 
-echo "$word	$ans"
+echo "$word"
 break
 echo "Press Enter to see options..."
 read
