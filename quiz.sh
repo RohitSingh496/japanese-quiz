@@ -1,42 +1,56 @@
 #!/bin/bash
-clear
-echo "Creating a quiz from kanji.tsv file..."
 
+file=./n4kanji.tsv
+
+#color-variables
+green="\033[1;32m"
+red="\033[1;31m"
+blue="\033[1;34m"
+cyan="\033[1;36m"
+end="\033[0m"
+
+#horizontal-breakline
 break(){
-echo 
-for i in {0..5}; do echo -n "**--**" ; done 
+echo
+for i in $(seq $1); do echo -ne "$cyan**--**$end" ; done 
 echo 
 echo 
 }
 
-break
+clear
+echo "Generated a quiz from $file file."
+
+break 2
 
 #getRandomLine
-str=$(shuf -n 1 kanji.tsv) 
+str=$(shuf -n 1 $file) 
 
 #extractWord
-word=$(echo "$str" | cut -f 2)
+word=$(echo "$str" | cut -f 1)
 
 #extractMeaning
-ans=$(echo "$str" | cut -f 5)
+ans=$(echo "$str" | cut -f 2)
 
 #createRandomChoice
-choice1=$(shuf -n 1 kanji.tsv | cut -f 5 )
-choice2=$(shuf -n 1 kanji.tsv | cut -f 5 )
-choice3=$(shuf -n 1 kanji.tsv | cut -f 5 )
+choice1=$(shuf -n 1 $file | cut -f 2 )
+choice2=$(shuf -n 1 $file | cut -f 2 )
+choice3=$(shuf -n 1 $file | cut -f 2 )
 
 
-echo "$word"
-break
-echo "Press Enter to see options..."
+echo -e "$blue $word $end"
+break 2
+echo -n "Press Enter to see options..."
 read
+
+break 6
+
 reply=$(echo -e "$ans\n$choice1\n$choice2\n$choice3"|shuf| fzf --prompt "Options for this: `echo $word`")
 
 if [ "$reply" == "$ans" ]
 then 
-	echo "correct"
+	echo -e "$green You got it correct! $end "
 else
-	echo "incorrect"
+	echo -e "$red Incorrect, $end \n$green '$ans'$end is the correct answer."
 fi
 
-break
+break 6 
