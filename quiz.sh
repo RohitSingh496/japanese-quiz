@@ -5,7 +5,7 @@ echo "Creating a quiz from $file file..."
 
 break(){
 echo 
-for i in {0..1}; do echo -n "**--**" ; done 
+for i in {0,1}; do echo -n "**--**" ; done 
 echo 
 echo 
 }
