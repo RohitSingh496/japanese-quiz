@@ -5,8 +5,8 @@
 ---
 
 #### Dependencies:
-- fzf :
-	You can get it [here]()
+- **fzf** :
+	You can get it [here](https://github.com/junegunn/fzf)
 
 ---
 
