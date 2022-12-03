@@ -11,8 +11,8 @@ end="\033[0m"
 
 #horizontal-breakline
 break(){
-echo 
-for i in {0..1}; do echo -ne "$cyan**--**$end" ; done 
+echo
+for i in $(seq $1); do echo -ne "$cyan**--**$end" ; done 
 echo 
 echo 
 }
@@ -20,7 +20,7 @@ echo
 clear
 echo "Generated a quiz from $file file."
 
-break
+break 2
 
 #getRandomLine
 str=$(shuf -n 1 $file) 
@@ -38,16 +38,19 @@ choice3=$(shuf -n 1 $file | cut -f 2 )
 
 
 echo -e "$blue $word $end"
-break
+break 2
 echo "Press Enter to see options..."
 read
+
+break 6
+
 reply=$(echo -e "$ans\n$choice1\n$choice2\n$choice3"|shuf| fzf --prompt "Options for this: `echo $word`")
 
 if [ "$reply" == "$ans" ]
 then 
 	echo -e "$green You got it correct! $end "
 else
-	echo -e "$red Incorrect, $end \n$green'$ans'$end is the correct answer."
+	echo -e "$red Incorrect, $end \n$green '$ans'$end is the correct answer."
 fi
 
-break
+break 6 
