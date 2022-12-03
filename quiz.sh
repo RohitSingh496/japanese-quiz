@@ -5,7 +5,7 @@ echo "Creating a quiz from $file file..."
 
 break(){
 echo 
-for i in {0..5}; do echo -n "**--**" ; done 
+for i in {0..1}; do echo -n "**--**" ; done 
 echo 
 echo 
 }
@@ -35,9 +35,9 @@ reply=$(echo -e "$ans\n$choice1\n$choice2\n$choice3"|shuf| fzf --prompt "Options
 
 if [ "$reply" == "$ans" ]
 then 
-	echo "correct"
+	echo "You got it correct!"
 else
-	echo "incorrect"
+	echo -e "Incorrect.\n'$ans' is the correct answer."
 fi
 
 break
