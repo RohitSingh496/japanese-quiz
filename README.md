@@ -1,6 +1,6 @@
 ### Japanese-Quiz
 
-- To clone: `git clone -b branch-2 --single-branch "https://github.com/japanese-quiz.git"`
+- To clone: `git clone "https://github.com/japanese-quiz.git"`
 
 ---
 
@@ -11,7 +11,7 @@
 
 ---
 
-### About new-branch:
+### About branch-1:
 - It has extra files: *n4kanji.tsv , allWords.csv*
 - quiz.sh has been modified accordingly.
 - I manually add words to allWords.csv that I learn every day ; ~~I do use a script for this step~~
