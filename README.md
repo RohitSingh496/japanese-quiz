@@ -14,7 +14,8 @@
 
 - `./quiz.sh 5` 
 - The above command will generate a quiz with '5' questions.
-- If you just run `./quiz.sh` It will ask only '1' question.
+- You can replace '5' with any 'number'. It is the number of questions.
+- If you just run `./quiz.sh` , it will ask only '1' question.
 
 ---
 
