@@ -4,6 +4,12 @@
 
 ---
 
+#### Dependencies:
+- **fzf** :
+	You can get it [here](https://github.com/junegunn/fzf)
+
+---
+
 #### About the script:
 - It takes a .tsv file and generates a quiz from that.
 - It makes use of `fzf` to present options.
@@ -13,8 +19,8 @@
 
 ### About new-branch:
 - It has extra files: *n4kanji.tsv , allWords.csv*
-- quiz.sh has been modified accordingly.
-- I manually add words to allWords.csv that I learn every day ; ~~I do use a script for this step~~
+- **quiz.sh** has been modified accordingly.
+- I manually add words to 'allWords.csv' that I learn every day ; ~~I do use a script for this step~~
 
 ---
 
