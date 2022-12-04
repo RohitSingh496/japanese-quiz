@@ -17,10 +17,11 @@
 
 ---
 
-### About new-branch:
+### About branch-1:
 - It has extra files: *n4kanji.tsv , allWords.csv*
 - **quiz.sh** has been modified accordingly.
 - I manually add words to 'allWords.csv' that I learn every day ; ~~I do use a script for this step~~
+- It has already been merged to the master branch. This branch has everything except some formatting.
 
 ---
 
