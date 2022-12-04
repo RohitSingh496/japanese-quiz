@@ -4,6 +4,12 @@
 
 ---
 
+#### Dependencies:
+- **fzf** :
+	You can get it [here](https://github.com/junegunn/fzf)
+
+---
+
 #### Script Usage:
 
 - `./quiz.sh 5` 
