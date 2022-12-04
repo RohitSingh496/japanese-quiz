@@ -4,6 +4,14 @@
 
 ---
 
+#### Script Usage:
+
+- `./quiz.sh 5` 
+- The above command will generate a quiz with '5' questions.
+- If you just run `./quiz.sh` It will ask only '1' question.
+
+---
+
 #### About the script:
 - It takes a .tsv file and generates a quiz from that.
 - It makes use of `fzf` to present options.
