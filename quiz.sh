@@ -56,7 +56,7 @@ startQuiz(){
 	
 	break 6
 	
-	reply=$(echo -e "$ans\n$choice1\n$choice2\n$choice3"|shuf| fzf --prompt "Options for this: `echo $word`")
+	reply=$(echo -e "$ans\n$choice1\n$choice2\n$choice3"|shuf| fzf --height 20% --prompt "Options for this: `echo $word`")
 	
 	if [ "$reply" == "$ans" ]
 	then
