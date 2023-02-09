@@ -4,7 +4,7 @@
 
 ---
 
-<img src="./assets/quiz.gif" width="600em" height="350em">
+<img src="https://0x0.st/HrrR.gif" width="600em" height="350em">
 
 ---
 #### Dependencies:
