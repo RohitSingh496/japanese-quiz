@@ -4,6 +4,9 @@
 
 ---
 
+<img src="./assets/quiz.gif" width="600em" height="350em">
+
+---
 #### Dependencies:
 - **fzf** :
 	You can get it [here](https://github.com/junegunn/fzf)
