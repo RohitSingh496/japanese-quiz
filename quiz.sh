@@ -1,6 +1,7 @@
 #!/bin/bash
 
-file=./n4kanji.tsv
+#file=./n4kanji.tsv
+file="$(find ~ -name n4kanji.tsv | head -n 1)"
 score=0
 if [ ! $1 ]
 then
