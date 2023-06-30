@@ -1,6 +1,6 @@
 ### Japanese-Quiz
 
-- To clone: `git clone "https://github.com/japanese-quiz.git"`
+- To clone: `git clone "https://github.com/RohitSingh496/japanese-quiz.git"`
 
 ---
 
